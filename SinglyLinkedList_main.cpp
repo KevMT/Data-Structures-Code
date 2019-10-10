@@ -62,6 +62,11 @@ int main() {
         cout << students.front();
         students.pop_front();
     }
+  
+  SinglyLinkedList<Student> students;
+  students.append (Student);
+  students.append (Student);
+  students.prepend (Student);
 }
 
 // template struct Node<Student>;
